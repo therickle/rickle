@@ -1,4 +1,4 @@
-# rickle
+# Rickle
 Rickle is an ERC20 token on the Ethereum network and the Ethereum 
 blockchain, using its proof of work algorithm. Rickle has a total of 100 billion 
 tokens.
