@@ -43,6 +43,10 @@ The next is how much is in the pool. This amount is divided by 365 for each day 
 We then again, divide that by 24 for each hour of the day. Since payout's happen hourly, currently. This will be changed to daily once we go live.
 From there the amount of payout is determined by how much everyone has staked. You get a reward based on the percentage of the total staked coin.
 
+Usage : 
+`!stake [*coin]`
+See what balance and what is pending vestment and vested fully.
+
 _ faucet _
 
 Usage : 
@@ -51,6 +55,12 @@ Usage :
 The faucets are community funded. We use 50 Rickle each time a member purchases a membership to add to the faucet. There are faucets for every token/coin
 on Winston. It cost nothing to donate to the faucet or use the Rickle faucet. Members have access to all of the available faucets 1 after every 2 hours, and non-members 
 can utilize it once after every 6 hours. Members receive 1/100 of the faucet drop amount each time, and none members receive 1/10000. 
+
+Usage : 
+`!faucets`
+
+Usage :
+`!faucet [coin]`
 
 _ burn _
 
@@ -77,6 +87,9 @@ Usage :
 `$tip @Winston [amount] [coin] pool`
 Want to help fund staking pools, here's your chance to really make your coin of choice worth more, by adding to the pool you donate back to the staking process. 
 Everyone who stakes shares in the rewards.
+
+Usage : 
+`!pool [*coin]
 
 _ donate _
 
