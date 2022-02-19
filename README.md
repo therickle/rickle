@@ -34,6 +34,16 @@ The following commands can be used to tip Winston.
 
 _ stake _
 
+** How does Staking Work **
+
+As people donate to a staking pool for a coin there is a pool created. Let's call this the POOL.
+Now as people stake coins and tokens they vest after 30 days. This is when you will begin earning rewards on your vested balance.
+So we total all of the Vested coins up we call this TOTAL_STAKED.
+Now we take what each person has Vested and divide that by the TOTAL_STAKED to get the USERS_WEIGHT
+From there we use the following equation to do the payouts for each person.
+
+> POOL/365/24/USER_SWEIGHT
+
 Usage : 
 `$tip @Winston [amount] [coin] stake`
 
@@ -44,8 +54,12 @@ We then again, divide that by 24 for each hour of the day. Since payout's happen
 From there the amount of payout is determined by how much everyone has staked. You get a reward based on the percentage of the total staked coin.
 
 Usage : 
-`!stake [*coin]`
+`w-stake [*coin]`
 See what balance and what is pending vestment and vested fully.
+
+Usage :
+`w-unstake [coin] [amount]`
+Unstake an amount of coins or tokens that have previously been staked.
 
 _ faucet _
 
@@ -57,10 +71,10 @@ on Winston. It cost nothing to donate to the faucet or use the Rickle faucet. Me
 can utilize it once after every 6 hours. Members receive 1/100 of the faucet drop amount each time, and none members receive 1/10000. 
 
 Usage : 
-`!faucets`
-
+`w-faucets`
+Get a list of the faucets available to you through Winston.
 Usage :
-`!faucet [coin]`
+`w-faucet [coin]`
 
 _ burn _
 
@@ -81,6 +95,10 @@ Usage :
 `$tip @Winston [amount] [coin] transfer`
 Want to use some of Winstons other features, you will need to fund your account. You can do this simply by tipping Winston from tipcc and you will be able to transfer funds over to your Winston wallet.
 
+Usage : 
+`w-transfer [coin] [amount]`
+Transfer your balance from Winston to Tipcc.
+
 _ pool _
 
 Usage : 
@@ -89,7 +107,8 @@ Want to help fund staking pools, here's your chance to really make your coin of 
 Everyone who stakes shares in the rewards.
 
 Usage : 
-`!pool [*coin]
+`w-pool [*coin]`
+Get a list of the donated tokens and coins that are used to pay rewards to those that have staked coins within Winston.
 
 _ donate _
 
@@ -101,3 +120,5 @@ These donation go back to support the project, from equipment to sometime's my d
 Either way I appreciate the donations, Winston is my passion project and I am glad you enjoy him!
 
 Note : If you tip Winston with out a keyword it will just be added to your balance on Winston. We call this a transfer in.
+
+
