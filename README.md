@@ -110,6 +110,16 @@ Usage :
 `w-pool [*coin]`
 Get a list of the donated tokens and coins that are used to pay rewards to those that have staked coins within Winston.
 
+_ balance _
+
+Usage : 
+`w-bal [*coin]`
+Get the balance or balances of your tokens and coins with in Winston.
+
+Usage : 
+`w-balance [*coin]`
+Get the balance or balances of your tokens and coins with in Winston.
+
 _ donate _
 
 Usage : 
