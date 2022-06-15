@@ -8,7 +8,7 @@ So, what does that mean? Well to start Rickle, is a token on the ethereum networ
 the most popular smart contract chain at the time of creating the contract. However, we knew when we created the contract 
 we are not limited to one network. With our understanding of technology we knew some of what was possible.
 
-In September of 2021, Mike Estrada and a few other people got together to form the Rickle team, and we begun building what is known as today's Rickle community. You can join us today on discord.gg/rickletoken. Check out our website, and add the Rickle to your wallet. [Rickle](https://rickletoken.com) [Rickle](https://therickle.com) 
+In September of 2021, Mike Estrada and a few other people got together to form the Rickle team, and we begun building what is known as today's Rickle community. You can join us today on discord.gg/rickletoken. Check out our website, and add the Rickle to your wallet. [Rickle Token](https://rickletoken.com) [The Rickle](https://therickle.com) 
 
 Come join us and help built better tools for our decentralized financial future.
 
@@ -49,8 +49,10 @@ Come join us and help built better tools for our decentralized financial future.
   - https://dropbox.blockchange.services
 
 
-Rickle is apart of the Winston Network. To find out more about Winston Services and our project join us on (discord)[https://discord.gg/rickletoken].
+Rickle is apart of the Winston Network. To find out more about Winston Services and our project join us on [discord](https://discord.gg/rickletoken).
 
-Copyright 2022 © M.A.D. Computer Consulting LLC ALL RIGHTS RESERVED
-Powered By : Winston
-https://winston.services
+###### _Copyright 2022 © M.A.D. Computer Consulting LLC ALL RIGHTS RESERVED_
+
+_Powered By : Winston_
+
+_https://winston.services_ [Winston](https://winston.services)
